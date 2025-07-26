@@ -2,10 +2,10 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className='bg-black text-white pz-8 md:px-16 lg:px-24'>
-            <div className='container py-2 flex justify-center md:justify-between items-center'>
+        <div className='bg-black text-white pz-8 md:px-24 lg:px-50'>
+            <div className=' py-3 flex items-center justify-center md:justify-between'>
                 <div className='font-bold text-2xl hidden md:inline'>
-                    Shahdat Hossain
+                    Portfolio
                 </div>
                 <div className='space-x-6 font-semibold'>
                     <a className='hover:text-gray-400' href='#home'> Home</a>
